@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curare Anestesia Ambulatorial - Segurança e Cuidado em Cada Procedimento</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 77, 153, 0.7), rgba(0, 48, 96, 0.8)), url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Cabeçalho e Navegação -->
+    <header class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="bg-cyan-600 p-2 rounded-full text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-syringe"><path d="m18 2 4 4"/><path d="m17 7 3-3"/><path d="M19 9 8.7 19.3c-1 1-2.5 1-3.4 0l-2.6-2.6c-1-1-1-2.5 0-3.4L15 1"/><path d="m9 15 4-4"/><path d="m5.5 7.5 3 3"/></svg>
+                </div>
+                <span class="text-xl font-bold text-cyan-800">Curare Anestesia</span>
+            </div>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#inicio" class="text-gray-600 hover:text-cyan-600 transition-colors">Início</a>
+                <a href="#sobre" class="text-gray-600 hover:text-cyan-600 transition-colors">Sobre Nós</a>
+                <a href="#equipe" class="text-gray-600 hover:text-cyan-600 transition-colors">Equipe</a>
+                <a href="#valores" class="text-gray-600 hover:text-cyan-600 transition-colors">Nossos Pilares</a>
+                <a href="#contato" class="bg-cyan-600 text-white px-4 py-2 rounded-full hover:bg-cyan-700 transition-colors shadow">Contato</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-gray-600 hover:text-cyan-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+                </button>
+            </div>
+        </nav>
+        <!-- Menu Mobile -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white">
+            <a href="#inicio" class="block py-2 px-6 text-sm text-gray-700 hover:bg-gray-100">Início</a>
+            <a href="#sobre" class="block py-2 px-6 text-sm text-gray-700 hover:bg-gray-100">Sobre Nós</a>
+            <a href="#equipe" class="block py-2 px-6 text-sm text-gray-700 hover:bg-gray-100">Equipe</a>
+            <a href="#valores" class="block py-2 px-6 text-sm text-gray-700 hover:bg-gray-100">Nossos Pilares</a>
+            <a href="#contato" class="block py-2 px-6 text-sm text-gray-700 hover:bg-gray-100">Contato</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção Hero -->
+        <section id="inicio" class="hero-bg text-white">
+            <div class="container mx-auto px-6 py-24 md:py-32 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">Anestesia Ambulatorial com Segurança e Conforto</h1>
+                <p class="text-lg md:text-xl max-w-3xl mx-auto mb-8">Cuidado especializado para seus procedimentos, garantindo sua tranquilidade e bem-estar em Três Rios e região.</p>
+                <a href="#contato" class="bg-white text-cyan-700 font-bold px-8 py-3 rounded-full hover:bg-gray-200 transition-transform transform hover:scale-105">Agende uma Avaliação</a>
+            </div>
+        </section>
+
+        <!-- Seção Sobre Nós -->
+        <section id="sobre" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1550831107-1553da8c8464?q=80&w=1887&auto=format&fit=crop" alt="Equipamento de monitoramento cardíaco" class="rounded-lg shadow-xl w-full h-auto">
+                    </div>
+                    <div class="text-center md:text-left">
+                        <h2 class="text-3xl font-bold text-cyan-800 mb-4">O que é a Curare?</h2>
+                        <p class="text-gray-600 mb-4 leading-relaxed">A <span class="font-semibold">Curare Anestesia Ambulatorial</span> nasceu do desejo de oferecer um serviço de anestesiologia de excelência, focado na segurança, conforto e humanização do cuidado ao paciente. O nome "Curare" remete a um dos primeiros relaxantes musculares utilizados na anestesia, simbolizando a base científica e a evolução constante da nossa especialidade.</p>
+                        <p class="text-gray-600 leading-relaxed">Nossa prática é dedicada a procedimentos ambulatoriais, onde o paciente recebe alta no mesmo dia, proporcionando uma recuperação mais rápida e no conforto do seu lar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção da Equipe -->
+        <section id="equipe" class="bg-cyan-50 py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center text-cyan-800 mb-12">Nossa Equipe Médica</h2>
+                <div class="flex flex-wrap justify-center gap-10">
+                    <!-- Card Dra. Luísa Paiva -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg text-center w-full max-w-sm transform hover:-translate-y-2 transition-transform">
+                        <img src="https://placehold.co/150x150/67e8f9/0e7490?text=LP" alt="Retrato da Dra. Luísa Paiva" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-cyan-200">
+                        <h3 class="text-xl font-bold text-cyan-800">Dra. Luísa Paiva</h3>
+                        <p class="text-gray-500">CRM 1189948 RJ - RQE 53250</p>
+                        <p class="text-gray-600 mt-4">Médica anestesiologista com foco em segurança do paciente e técnicas modernas de anestesia para procedimentos ambulatoriais.</p>
+                    </div>
+                    <!-- Card Dra. Marília Coelho -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg text-center w-full max-w-sm transform hover:-translate-y-2 transition-transform">
+                        <img src="https://placehold.co/150x150/a5f3fc/0e7490?text=MC" alt="Retrato da Dra. Marília Coelho" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-cyan-200">
+                        <h3 class="text-xl font-bold text-cyan-800">Dra. Marília Coelho</h3>
+                        <p class="text-gray-500">CRM 52-93538-7 RJ - RQE 49394</p>
+                        <p class="text-gray-600 mt-4">Especialista em anestesiologia, dedicada ao cuidado humanizado e ao bem-estar do paciente durante todo o processo cirúrgico.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Valores, Missão e Visão -->
+        <section id="valores" class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center text-cyan-800 mb-12">Nossos Pilares</h2>
+                <div class="grid md:grid-cols-3 gap-8 text-center">
+                    <!-- Card Missão -->
+                    <div class="bg-white p-8 rounded-lg shadow-md border-t-4 border-cyan-500">
+                        <div class="flex justify-center mb-4">
+                            <div class="bg-cyan-100 p-3 rounded-full">
+                                <i data-lucide="goal" class="text-cyan-600"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-cyan-800 mb-2">Nossa Missão</h3>
+                        <p class="text-gray-600">Proporcionar a melhor e mais segura experiência em anestesia para procedimentos ambulatoriais, com atendimento humanizado e excelência técnica.</p>
+                    </div>
+                    <!-- Card Visão -->
+                    <div class="bg-white p-8 rounded-lg shadow-md border-t-4 border-cyan-500">
+                        <div class="flex justify-center mb-4">
+                            <div class="bg-cyan-100 p-3 rounded-full">
+                                <i data-lucide="eye" class="text-cyan-600"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-cyan-800 mb-2">Nossa Visão</h3>
+                        <p class="text-gray-600">Ser referência em anestesia ambulatorial na região, reconhecida pela qualidade, segurança e pelo cuidado centrado no paciente.</p>
+                    </div>
+                    <!-- Card Valores -->
+                    <div class="bg-white p-8 rounded-lg shadow-md border-t-4 border-cyan-500">
+                        <div class="flex justify-center mb-4">
+                            <div class="bg-cyan-100 p-3 rounded-full">
+                                <i data-lucide="gem" class="text-cyan-600"></i>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-cyan-800 mb-2">Nossos Valores</h3>
+                        <p class="text-gray-600">Ética, Segurança, Empatia, Comprometimento e Inovação Contínua.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Contato -->
+        <section id="contato" class="bg-gray-100 py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center">
+                    <h2 class="text-3xl font-bold text-cyan-800 mb-4">Entre em Contato</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto mb-8">Estamos à disposição para esclarecer suas dúvidas e agendar avaliações. Atendemos em Três Rios e toda a região.</p>
+                </div>
+                <div class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h3 class="text-lg font-semibold text-cyan-800 mb-4">Informações de Contato</h3>
+                            <div class="space-y-4 text-gray-700">
+                                <p class="flex items-center"><i data-lucide="map-pin" class="w-5 h-5 mr-3 text-cyan-600"></i>Três Rios, RJ e Região</p>
+                                <p class="flex items-center"><i data-lucide="phone" class="w-5 h-5 mr-3 text-cyan-600"></i>(XX) XXXX-XXXX (Telefone)</p>
+                                <p class="flex items-center"><i data-lucide="mail" class="w-5 h-5 mr-3 text-cyan-600"></i>contato@curareanestesia.com.br</p>
+                            </div>
+                            <h3 class="text-lg font-semibold text-cyan-800 mt-8 mb-4">Siga-nos</h3>
+                            <a href="https://www.instagram.com/curareanestesiaambulatorial" target="_blank" class="inline-flex items-center text-gray-700 hover:text-cyan-600">
+                                <i data-lucide="instagram" class="w-6 h-6 mr-2"></i> @curareanestesiaambulatorial
+                            </a>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-cyan-800 mb-4">Envie uma Mensagem</h3>
+                            <form action="#" method="POST">
+                                <div class="mb-4">
+                                    <label for="name" class="block text-sm font-medium text-gray-600">Nome</label>
+                                    <input type="text" id="name" name="name" class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-cyan-500 focus:border-cyan-500">
+                                </div>
+                                <div class="mb-4">
+                                    <label for="email" class="block text-sm font-medium text-gray-600">Email</label>
+                                    <input type="email" id="email" name="email" class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-cyan-500 focus:border-cyan-500">
+                                </div>
+                                <div class="mb-4">
+                                    <label for="message" class="block text-sm font-medium text-gray-600">Mensagem</label>
+                                    <textarea id="message" name="message" rows="4" class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-cyan-500 focus:border-cyan-500"></textarea>
+                                </div>
+                                <button type="submit" class="w-full bg-cyan-600 text-white font-bold py-2 px-4 rounded-md hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500">
+                                    Enviar
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-cyan-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 Curare Anestesia Ambulatorial. Todos os direitos reservados.</p>
+            <p class="text-sm text-cyan-200 mt-2">Desenvolvido com cuidado para cuidar de você.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Script para menu mobile
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Script para ícones Lucide
+        lucide.createIcons();
+
+        // Fechar menu mobile ao clicar em um link
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+
+</body>
+</html>
